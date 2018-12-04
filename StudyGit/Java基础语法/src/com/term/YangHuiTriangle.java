@@ -13,7 +13,7 @@ public class YangHuiTriangle {
 			}else {
 				triangle[i][j]=triangle[i-1][j]+triangle[i-1][j-1];
 			}
-			System.out.print(triangle[i][j]+'\t');
+			System.out.print(triangle[i][j]+"\t");
 		}
 		System.out.println();
 	}
