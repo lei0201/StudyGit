@@ -8,14 +8,14 @@ public static void main(String[] args) {
 	System.out.println("请输入要跟换的第二个数：");
 	int y=sc.nextInt();
 	x=x^y;
-	System.out.println("x="+x);
-	System.out.println(",y="+y);
+//	System.out.println("x="+x);
+//	System.out.println(",y="+y);
 	y=y^x;
-	System.out.println("x="+x);
-	System.out.println(",y="+y);
+//	System.out.println("x="+x);
+//	System.out.println(",y="+y);
 	x=x^y;
-	System.out.println("x="+x);
-	System.out.println(",y="+y);
+//	System.out.println("x="+x);
+//	System.out.println(",y="+y);
 	System.out.println("x="+x+",y="+y);
 	
 }
