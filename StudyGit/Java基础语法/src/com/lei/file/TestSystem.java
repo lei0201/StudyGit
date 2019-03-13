@@ -12,12 +12,12 @@ public class TestSystem {
 		   System.out.println("localChartSet>>>>"+localChartSet);   //查看本地默认字符集
 
 		try {
-		File f=new File("C:\\Users\\Administrator\\Desktop\\menagerie.txt");
+		File f=new File("C:\\Users\\Administrator\\Desktop\\1.txt");
 		FileInputStream fis=new FileInputStream(f);
 		byte []all=new byte[(int) f.length()];
 		fis.read(all);
 		//new String(all,,"gb2312")把all整型数组转换为字符串,"gb2312"字符编码
-		System.out.println(new String(all,"gb2312"));
+		System.out.println(new String(all,"utf-8"));
 		FileOutputStream  fo=new FileOutputStream(f);
 		byte []d= {12,120};
 		fo.write(d);
